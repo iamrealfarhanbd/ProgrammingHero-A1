@@ -93,6 +93,11 @@ body{
 }
 
 /* my Mission card */
+.My-Mission {
+    background-image: url(./images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
 .My-Mission img {
     width: 40%;
 }
