@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope&family=Poppins:wght@400;500;700&family=Yeseva+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.width {
+    
+    width: 1500px;
+    margin: auto;
+}
+.hero-head {
+    padding: 80px 0;
+}
+.useFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.useFlexnew{
+    display: flex;
+    justify-content: flex-end;
+}
+.image-area img {
+    width: 70%;
+}
+.half-width{
+    width: 50%;
+}
+
+.hero-h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+ 
+}
+.hero-h2-new{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+}
+.color-orange {
+    color: #FFAD5A;
+}
+.color-black{
+    color: #333333;
+}
+.color-Red {
+    color: #FF5959;
+}
+.border-left {
+    border-image: linear-gradient(#f6b73c, #FF5959) 30 round;
+    border-image-slice: 1;
+    border-left: 5px solid;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+.ancorTag {
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* ALL paragraph */
+.para-1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+}
+.para-2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+}
+
+/* my Mission card */
+.My-Mission img {
+    width: 40%;
+}
+.My-Mission h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #13103A;
+}
+.Textcenter{
+    text-align: center;
+}
+.mission {
+    background: rgba(79, 157, 166, 0.1);
+}
+.vission{
+    background: rgba(255, 89, 89, 0.1);
+    margin: 30px;
+}
+.goals{
+    background: #FFF4D6;
+}
+.card {
+ 
+    padding: 30px;
+    border-radius: 26px;
+    width: 25%;
+}
+/* end */
+/* Develop section */
+.bg-img {
+    background-image: url(./images/shapes/shape-0.png);
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+    padding: 120px 0;
+}
+
+ul.unorderList {
+    padding-bottom: 20px;
+    margin: 0;
+}
+.image-area-new img {
+    width: 80%;
+}
+.half-width-new {
+    width: 50%;
+}
+
+/* end */
+
+/* special section */
+.My-Mission-new img{
+    width: 80%;
+
+}
+.My-Mission-new {
+    padding: 80px 0;
+
+}
+.onHover {
+    display: block;
+}
+
+.offHover {
+    display: none;
+}
+.projectOne:hover .offHover ,.projectTwo:hover .offHover ,.projectThree:hover .offHover{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.projectOne:hover .onHover,.projectTwo:hover .onHover ,.projectThree:hover .onHover{
+    display: none;
+   
+}
+.projectOne {
+    background: #FF5959;
+}
+.projectTwo{
+    background: rgba(255, 89, 89, 0.1);
+    margin: 30px;
+}
+.projectThree{
+    background: #42292817;
+}
+a.myUrl {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: #ffad5a;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+/* end */
+
+footer {
+    background: #0B0D17;
+    padding: 50px 0;
+}
+
+footer .heading {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+footer p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D9DBE1;
+}
